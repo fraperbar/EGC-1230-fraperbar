@@ -31,7 +31,6 @@ deploy:
   - provider: heroku
     app: herokuexamen
     strategy: git
-    api_key:
-      secure: $HEROKU_AUTH_TOKEN
+    api_key: $HEROKU_AUTH_TOKEN
     on: 
       branch: master
