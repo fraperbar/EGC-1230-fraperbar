@@ -191,7 +191,7 @@ if os.path.exists("config.jsonnet"):
     for k, v in config.items():
         vars()[k] = v
 
-
+#comentario para push
 INSTALLED_APPS = INSTALLED_APPS + MODULES
 import django_heroku
 django_heroku.settings(locals())
