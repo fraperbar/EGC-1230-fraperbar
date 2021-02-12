@@ -73,8 +73,18 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://localhost:8000'
-
+BASEURL = 'https://herokuexamen.herokuapp.com/'
+APIS = {
+    'authentication': BASEURL,
+    'base': BASEURL,
+    'booth': BASEURL,
+    'census': BASEURL,
+    'mixnet': BASEURL,
+    'postproc': BASEURL,
+    'store': BASEURL,
+    'visualizer': BASEURL,
+    'voting': BASEURL,
+}
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
