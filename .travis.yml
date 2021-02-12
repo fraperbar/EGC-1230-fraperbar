@@ -26,6 +26,7 @@ notifications:
   email:
     on_success: always
     recipients:
+      - fraperbar@alum.us.es
       - volcanavanza@gmail.com
 deploy:
   - provider: heroku
